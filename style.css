@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(117, 89, 119, 0.404)
+}
+.container{
+    max-width: 1300px;
+    height: 900px;
+    background-color: white;
+    margin: 30px;
+   
+}
+.parents{
+    max-width: 1300px;
+    height: 600px;
+    background-color: rgb(27, 21, 21);
+    top: 50px;
+}
+.child1{
+    width: auto;
+    color: white;
+    text-align: justify;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.child2{
+    width: 600px;
+    padding-top: 60px;
+}
+.child3{
+    width: 500px;
+}
+img{
+    border-radius: 50%;
+    padding-top: 0px;
+}
+.child3 figcaption{
+     margin-left: 50px;
+    font-size: 25px;
+    color: rgb(230, 86, 86);
+}
+.a{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(117, 89, 119, 0.404);
+    border-radius: 10%;
+}
+.b{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(117, 89, 119, 0.404);
+    border-radius: 10%;
+}
+.c{
+    width: 300px;
+    height: 250px;
+    background-color:rgba(117, 89, 119, 0.404);
+    border-radius: 10%;
+}
+.child4{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+    
+}
+.child4 img{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.child4 .a:hover{
+    width: 400px;
+    height: 350px;
+    background-color:gray;
+    color:white;
+}
+.child4 .b:hover{
+    width: 400px;
+    height: 350px;
+    background-color: gray;
+    color:white;
+}
+.child4 .c:hover{
+    width: 400px;
+    height: 350px;
+    background-color: gray;
+    color:white;
+}
+@media screen  {white-space: 500px;
+    height: 400px;
+    
+}
